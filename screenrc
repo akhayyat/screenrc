@@ -1,0 +1,28 @@
+vbell off
+altscreen on
+hardstatus on
+hardstatus alwayslastline
+backtick 1 86400 86400 whoami
+backtick 2 86400 86400 uname -m
+
+backtick 100 0 0 $HOME/scripts/screen/screen-stats.awk
+
+hardstatus string "%{= kY}%1`%{+b G}@%{+b Y}%H%{-b G} (%2`) %-=%{G}%100` %{w}|%{-} %{Y}%Y%{-}.%{Y}%m%{-}.%{Y}%d%{-} %D %{Y}%C%{-}:%{Y}%s%{-} %a"
+
+caption always
+caption string "%-Lw%{= bw}%50>%n %t%{-}%+Lw%<"
+
+shelltitle '$ |shell'
+
+startup_message off
+defscrollback 2000
+bindkey -k k2 screen
+bindkey -k k3 prev
+bindkey -k k4 next
+bindkey -k k5 copy
+bindkey -k k8 title
+bindkey -k k9 focus
+bind x
+bind s
+bind ^s
+bind u source ~/.screenrc
