@@ -34,3 +34,24 @@ The current configuration assumes the following:
 -   The package `apt-show-versions`
 
     This is also used to get the number of available updates
+
+How to Use
+----------
+
+1.  Clone the repository to your local machine:
+
+        cd $SCREENRC_REPO_DIR
+        hg clone https://bitbucket.org/akhayyat/screenrc
+
+2.  Set the path for the included script(s) in the `screenrc` file to
+    your actual `$SCREENRC_REPO_DIR`, by editing the following line in
+    the `screenrc` file:
+
+        backtick 100 0 0 $HOME/scripts/screen/screen-stats.awk
+
+    The default above assumes that `$SCREENRC_REPO_DIR` is `$HOME/scripts/screen/`
+
+3.  Link the `.screenrc` file in your home directory to the `screenrc`
+    file in the repository:
+
+        ln -s $SCREENRC_REPO_DIR/screenrc $HOME/.screenrc
