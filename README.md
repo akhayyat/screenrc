@@ -55,3 +55,8 @@ How to Use
     file in the repository:
 
         ln -s $SCREENRC_REPO_DIR/screenrc $HOME/.screenrc
+
+How it Looks
+------------
+
+![Screenshot](./screenrc-screenshot.png "Screenshot")
