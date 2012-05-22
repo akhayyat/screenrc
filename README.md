@@ -59,4 +59,4 @@ How to Use
 How it Looks
 ------------
 
-![Screenshot](./screenrc-screenshot.png "Screenshot")
+![Screenshot](https://bitbucket.org/akhayyat/screenrc/raw/064acbb0294c/screenrc-screenshot.png "Screenshot")
