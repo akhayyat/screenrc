@@ -12,7 +12,7 @@ BEGIN {
     uptime_period = 60;
     uptime_counter = 0;
     updates_downcounter = 0;
-    updates_command = "apt-show-versions -u -b | grep testing | wc -l";
+    updates_command = "apt-show-versions -u -b | wc -l";
 
     while (1) {
         # updates
