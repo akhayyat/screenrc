@@ -12,6 +12,8 @@ hardstatus string "%{= kY}%1`%{+b G}@%{+b Y}%H%{-b G} (%2`) %-=%{G}%100` %{w}|%{
 caption always
 caption string "%-Lw%{= bw}%50>%n %t%{-}%+Lw%<"
 
+term xterm-256color
+
 shelltitle '$ |shell'
 
 startup_message off
