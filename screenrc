@@ -6,7 +6,7 @@ hardstatus alwayslastline
 backtick 1 86400 86400 whoami
 backtick 2 86400 86400 uname -m
 
-backtick 100 0 0 $HOME/scripts/screenrc/screen-stats.awk
+backtick 100 0 0 $HOME/.dotfiles/screenrc/screen-stats.awk
 
 hardstatus string "%{= kY}%1`%{+b G}@%{+b Y}%H%{-b G} (%2`) %-=%{G}%100` %{w}|%{-} %{Y}%Y%{-}.%{Y}%m%{-}.%{Y}%d%{-} %D %{Y}%C%{-}:%{Y}%s%{-} %a"
 

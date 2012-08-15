@@ -50,9 +50,9 @@ How to Use
     the absolute path of the repository (`$SCREENRC_REPO_DIR`), by
     editing the following line in the `screenrc` file:
 
-        backtick 100 0 0 $HOME/scripts/screenrc/screen-stats.awk
+        backtick 100 0 0 $HOME/.dotfiles/screenrc/screen-stats.awk
 
-    The default above assumes that `$SCREENRC_REPO_DIR` is `$HOME/scripts/screenrc/`
+    The default above assumes that `$SCREENRC_REPO_DIR` is `$HOME/.dotfiles/screenrc/`
 
 3.  Link the `.screenrc` file in your home directory to the `screenrc`
     file in the repository:
