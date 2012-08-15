@@ -1,3 +1,4 @@
+startup_message off
 vbell off
 altscreen on
 hardstatus on
@@ -16,7 +17,12 @@ term xterm-256color
 
 shelltitle '$ |shell'
 
-startup_message off
+# Set GNU screen command entry character to C-]
+escape ^]^]
+
+# Two C-] = literal C-]
+escape ^]^]
+
 defscrollback 2000
 bindkey -k k2 screen
 bindkey -k k3 prev
